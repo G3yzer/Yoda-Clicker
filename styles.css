@@ -1,0 +1,66 @@
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    aspect-ratio: 1;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+
+.clicker-button {
+    background-image: url("Yoda.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0246ff;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: black;
+    border-style: solid;
+    transition: width 0.1254s;
+}
+.YodaNumber {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 1px;
+}
+
+.YodaNumber > p {
+    margin:0
+}
+
+.background {
+    z-index: -1;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.upgrade-buttonx2 {
+    background-image: url("littleyoda.jpg");
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    width: 14%;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+.upgrade-buttonx2 > p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 125%;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    text-align: center;
+}
